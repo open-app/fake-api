@@ -1,0 +1,25 @@
+{
+  "name": "fake-api",
+  "version": "0.0.0",
+  "description": "api generated from schemas for testing",
+  "main": "index.js",
+  "scripts": {
+    "develop": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/open-app/type"
+  },
+  "author": "open-app",
+  "license": "AGPLv3",
+  "bugs": {
+    "url": "https://github.com/open-app/fake-api/issues"
+  },
+  "homepage": "https://github.com/open-app/fake-api",
+  "dependencies": {
+    "express": "^4.8.0",
+    "json-schema-mock": "0.0.7",
+    "json-schema-random": "0.0.4",
+    "oa-types": "git://github.com/open-app/types"
+  }
+}
