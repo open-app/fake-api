@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/open-app/fake-api",
   "dependencies": {
+    "bluebird": "^2.2.2",
+    "body-parser": "^1.6.1",
     "express": "^4.8.0",
     "json-schema-mock": "0.0.7",
     "json-schema-random": "0.0.4",

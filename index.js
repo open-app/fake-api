@@ -25,7 +25,17 @@ router.get('/groups', function(req, res) {
 
 });
 
+router.get('/people', function(req, res) {
+  var n = parseInt(req.query.n) || 10;
+  var list = new Array(n)
 
+  Promise.map(list, function() {
+    return mock(Person);
+  }).then(function(result) {
+    res.json({ graph: result }); 
+  });
+
+});
 
 
 app.use('/', router);
